@@ -292,7 +292,7 @@ header {
     width: 300px;
     height: 600px;
     
-    background-image: url(./assets/img/codergame.png);
+    background-image: url(./img/codergame.png);
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
@@ -303,7 +303,7 @@ header {
 }
 
 .jgr {
-    background-image: url(./assets/img/storejgr.png);
+    background-image: url(./img/storejgr.png);
 }
 
 .card:hover {
