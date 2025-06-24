@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato | Luanna Sant' Anna</title>
+
+    <link rel="stylesheet" href="../assets/style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+<body>
+    <!-- Efeito de fundo com desfoque (blur)  -->
+    <div class="effect"></div>
+
+    <!-- Cabeçalho do site com nome e menu navegação -->
+    <header>
+        <a href="../index.html"><h2 class="header__text--name">Luanna Sant' Anna</h2></a>
+        <nav>
+            <ul class="menu">
+                <li class="menu__item">
+                    <a href="./pages/sobre-mim.html" class="menu__item--link">Sobre Mim</a>
+                </li>
+                <li class="menu__item">
+                    <a href="./pages/formacao.html" class="menu__item--link">Formação</a>
+                </li>
+                <li class="menu__item">
+                    <a href="./pages/portfolio.html" class="menu__item--link">Portfólio</a>
+                </li>
+                <li class="menu__item">
+                    <a href="./pages/contato.html" class="menu__item--link">Contato</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Formulário para que usuários entrem em contato -->
+    <form>
+        <div class="nome">
+            <input type="text" placeholder="Nome e Sobrenome">
+            <i class="ri-user-line"></i> 
+        </div>
+
+        <div class="email">
+            <input type="text" placeholder="Email">
+            <i class="ri-mail-line"></i>
+        </div>
+        
+        <textarea name="mensagem" placeholder="Digite sua mensagem"></textarea>
+
+        <div id="btns">
+            <button class="btn__secondary">Cancelar</button>
+            <button class="btn__primary" >Enviar</button>
+        </div>
+    </form>
+</body>
+</html>
